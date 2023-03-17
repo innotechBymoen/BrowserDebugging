@@ -7,3 +7,6 @@ if(username == 'admin' || (user_age >= 30 && is_member === true)) {
 } else {
     console.log("Standard Greeting");
 }
+
+console.log(`Greetings ${username}`);
+console.log(`You are: ${user_age}`);
